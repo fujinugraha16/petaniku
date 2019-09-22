@@ -1,0 +1,298 @@
+.font-gray {
+  color: #707070;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 87px;
+  font-size: 20px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.11);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.11);
+}
+
+.navbar a {
+  color: #707070;
+  margin-left: 20px;
+}
+
+.navbar a button {
+  color: #3BB376;
+  height: 34px;
+  border-radius: 16px;
+  line-height: 0;
+}
+
+.navbar-nav .active {
+  color: inherit;
+  border-bottom: 3px solid #3BB376;
+}
+
+.jumbotron {
+  height: 608px;
+  margin-top: 87px;
+  background: url("../img/jmb-1.jpg") no-repeat;
+  background-size: 1411px 941px;
+  background-position: -22.5px -102px;
+  color: #ffffff;
+  padding: 0;
+  padding: 143px;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 608px;
+  width: 100%;
+  top: 87px;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(black), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0));
+  z-index: 0;
+}
+
+.jumbotron h1 {
+  position: relative;
+  font-size: 60px;
+  margin: 0;
+  z-index: 1;
+}
+
+.jumbotron p {
+  position: relative;
+  margin-top: 29px;
+  font-size: 40px;
+  z-index: 1;
+}
+
+#toko .line {
+  width: 352px;
+  height: 3px;
+  background: #3BB376;
+  margin-top: 15px;
+}
+
+#toko h5 {
+  margin-left: 20px;
+}
+
+#toko .card {
+  border: none;
+  -webkit-box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.16);
+          box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.16);
+}
+
+#toko .card .btn {
+  width: 100%;
+  background: #3BB376;
+  border: none;
+  height: 37px;
+}
+
+#toko .card .btn:hover {
+  background: #ffffff;
+  border: 1px solid #3BB376;
+  color: #3BB376;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#toko .card-body h4 {
+  font-size: 16px;
+}
+
+#toko .card-body h6 {
+  font-size: 14px;
+}
+
+#toko .card-body p {
+  font-size: 12px;
+  color: #3BB376;
+  line-height: 0;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  height: 695px;
+  background: url("../img/tentang.jpg") no-repeat;
+  background-size: 1614px 1076.5px;
+  background-position-y: -300px;
+}
+
+.about::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 695px;
+  background: -webkit-gradient(linear, left top, right bottom, from(black), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0));
+  z-index: 0;
+}
+
+.about h3 {
+  position: relative;
+  color: #ffffff;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.about .line {
+  position: relative;
+  width: 352px;
+  height: 3px;
+  background: #3BB376;
+  margin-top: 15px;
+  margin-bottom: 90px;
+  z-index: 1;
+}
+
+.about p {
+  position: relative;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.kontak {
+  width: 100%;
+  height: 605px;
+}
+
+.kontak .line {
+  width: 352px;
+  height: 3px;
+  background: #3BB376;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.kontak .info {
+  height: 323px;
+  width: 214px;
+  background: #3BB376;
+}
+
+.kontak p {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 26px;
+}
+
+.kontak form button {
+  width: 283px;
+  background: #3BB376;
+  border: none;
+}
+
+.kontak form button:hover {
+  background: #ffffff;
+  color: #3BB376;
+  border: 1px solid #3BB376;
+}
+
+#footer {
+  margin-top: 50px;
+  border-top: 2px solid #707070;
+}
+
+#footer p {
+  color: #707070;
+}
+
+.modal {
+  margin-left: 470px;
+  margin-top: 100px;
+  width: 400px;
+}
+
+.modal form button {
+  width: 100%;
+  background: #3BB376;
+  border: none;
+  height: 37px;
+}
+
+.modal form button:hover {
+  background: #ffffff;
+  color: #3BB376;
+  border: 1px solid #3BB376;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal form a {
+  color: #3BB376;
+}
+
+.modal form a:hover {
+  color: #007bff;
+}
+
+#logoutModal .modal-footer button:hover {
+  background: #ffffff;
+  border: 1px solid #707070;
+  color: #707070;
+}
+
+#logoutModal .modal-footer a {
+  width: 30%;
+  background: #3BB376;
+  border: none;
+  height: 37px;
+}
+
+#logoutModal .modal-footer a:hover {
+  background: #ffffff;
+  color: #3BB376;
+  border: 1px solid #3BB376;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#transaksiModal {
+  width: 100%;
+  margin: auto;
+}
+
+.isidata .card {
+  border: none;
+  -webkit-box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.16);
+          box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.16);
+}
+
+.isidata .card .btn {
+  width: 100%;
+  background: #3BB376;
+  border: none;
+  height: 37px;
+}
+
+.isidata .card .btn:hover {
+  background: #ffffff;
+  border: 1px solid #3BB376;
+  color: #3BB376;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.isidata .card-body h4 {
+  font-size: 16px;
+}
+
+.isidata .card-body h6 {
+  font-size: 14px;
+}
+
+.isidata .card-body p {
+  font-size: 12px;
+  color: #3BB376;
+  line-height: 0;
+}
+/*# sourceMappingURL=style.css.map */

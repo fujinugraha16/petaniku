@@ -1,0 +1,312 @@
+$green : #3BB376;
+$gray : #707070;
+$white : #ffffff;
+
+.font-gray {
+    color: $gray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 87px;
+    font-size: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .11);
+
+    a {
+        color: $gray;
+        margin-left: 20px;
+
+        button {
+            color: $green;
+            height: 34px;
+            border-radius: 16px;
+            line-height: 0;
+        }
+    }
+}
+
+.navbar-nav {
+    .active {
+        color: inherit;
+        border-bottom: 3px solid $green;
+    }
+}
+
+.jumbotron {
+    height: 608px;
+    margin-top: 87px;
+    background: url('../img/jmb-1.jpg') no-repeat;
+    background-size: 1411px 941px;
+    background-position: -22.5px -102px;
+    color: $white;
+    padding: 0;
+    padding: 143px;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 608px;
+        width: 100%;
+        top: 87px;
+        left: 0;
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 0;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 60px;
+        margin: 0;
+        z-index: 1;
+    }
+
+    p {
+        position: relative;
+        margin-top: 29px;
+        font-size: 40px;
+        z-index: 1;
+    }
+}
+
+#toko {
+    .line {
+        width: 352px;
+        height: 3px;
+        background: $green;
+        margin-top: 15px;
+    }
+
+    h5 {
+        margin-left: 20px;
+    }
+
+    .card {
+        border: none;
+        box-shadow: -10px 10px 15px rgba(0, 0, 0, .16);
+
+        .btn {
+            width: 100%;
+            background: $green;
+            border: none;
+            height: 37px;
+
+            &:hover {
+                background: $white;
+                border: 1px solid $green;
+                color: $green;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .card-body {
+        h4 {
+            font-size: 16px;
+        }
+
+        h6 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 12px;
+            color: $green;
+            line-height: 0;
+        }
+    }
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    height: 695px;
+    background: url('../img/tentang.jpg') no-repeat;
+    background-size: 1614px 1076.5px;
+    background-position-y: -300px;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 695px;
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 0;
+    }
+
+    h3 {
+        position: relative;
+        color: $white;
+        margin-top: 50px;
+        z-index: 1;
+    }
+
+    .line {
+        position: relative;
+        width: 352px;
+        height: 3px;
+        background: $green;
+        margin-top: 15px;
+        margin-bottom: 90px;
+        z-index: 1;
+    }
+
+    p {
+        position: relative;
+        color: $white;
+        z-index: 1;
+    }
+}
+
+.kontak {
+    width: 100%;
+    height: 605px;
+
+    .line {
+        width: 352px;
+        height: 3px;
+        background: $green;
+        margin-top: 15px;
+        margin-bottom: 60px;
+    }
+
+    .info {
+        height: 323px;
+        width: 214px;
+        background: $green;
+    }
+
+    p {
+        margin-left: 10px;
+        font-size: 12px;
+        color: $white;
+        margin-top: 26px;
+    }
+
+    form {
+        button {
+            width: 283px;
+            background: $green;
+            border: none;
+
+            &:hover {
+                background: $white;
+                color: $green;
+                border: 1px solid $green;
+            }
+        }
+    }
+}
+
+#footer {
+    margin-top: 50px;
+    border-top: 2px solid $gray;
+
+    p {
+        color: $gray;
+    }
+
+}
+
+.modal {
+    margin-left: 470px;
+    margin-top: 100px;
+    width: 400px;
+
+    form {
+        button {
+            width: 100%;
+            background: $green;
+            border: none;
+            height: 37px;
+
+            &:hover {
+                background: $white;
+                color: $green;
+                border: 1px solid $green;
+                box-sizing: border-box;
+            }
+        }
+
+        a {
+            color: $green;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+
+}
+
+#logoutModal {
+    .modal-footer {
+        button:hover {
+            background: $white;
+            border: 1px solid $gray;
+            color: $gray;
+        }
+
+        a {
+            width: 30%;
+            background: $green;
+            border: none;
+            height: 37px;
+
+            &:hover {
+                background: $white;
+                color: $green;
+                border: 1px solid $green;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+#transaksiModal {
+    width: 100%;
+    margin: auto;
+}
+
+.isidata {
+    .card {
+        border: none;
+        box-shadow: -10px 10px 15px rgba(0, 0, 0, .16);
+
+        .btn {
+            width: 100%;
+            background: $green;
+            border: none;
+            height: 37px;
+
+            &:hover {
+                background: $white;
+                border: 1px solid $green;
+                color: $green;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .card-body {
+        h4 {
+            font-size: 16px;
+        }
+
+        h6 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 12px;
+            color: $green;
+            line-height: 0;
+        }
+    }
+}
