@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 22, 2019 at 04:56 PM
+-- Generation Time: Sep 22, 2019 at 06:39 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -102,10 +102,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `email`, `password`) VALUES
-(1, 'Fuji Nugraha', 'fujinugraha16@gmail.com', '$2y$10$npEfajylZsw/1XCYD.CNSekjFwaMCJKN0YlTkGfEF0uOL4Nxlclca'),
-(2, 'Salwa Marisa', 'salwamarisa20@gmail.com', '$2y$10$Q5EedxjBalEFWhUPkrIekuWEH5zuuCw/qATpexMBU3uKFfLEgkxi.'),
-(3, '', '', '$2y$10$8opCpH60R3zRhhhwyPExj.EUozuBRMPppTSJO/ijnLUHeoMXmCaxC'),
-(4, 'Ali Muhamad', 'alimuhammad23@gmail.com', '$2y$10$s3TUcW8vBdn7RhykNpuS4uqs7hMx8ytmt/iD3UDYZr41CxYdGTp.i');
+(5, 'Admin', 'admin@gmail.com', '$2y$10$X8eXSTX4crTsZUD8CqmCHONN2sybr6YPDU5U2TfW3jC5PluP463au');
 
 --
 -- Indexes for dumped tables
@@ -149,7 +146,7 @@ ALTER TABLE `transaksi`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
